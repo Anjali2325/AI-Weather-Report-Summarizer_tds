@@ -1,0 +1,8 @@
+Create a FastAPI server that accepts a POST request with location details (latitude and longitude) in the request body.
+
+Validate the incoming data using Pydantic (latitude and longitude must be valid floats within range).
+Use these coordinates to call the Open-Meteo API (hardcoded URL: https://api.open-meteo.com/v1/forecast) to fetch the temperature and humidity for the current day.
+Receive the structured JSON response from Open-Meteo.
+Pass this JSON to Gemini (Use Client for it) free-tier LLM (GEMINI-1.5-FLASH)(via REST API call using the placeholder GEMINI_API_KEY loaded from .env).
+Receive a human-like summarized weather report from Gemini.
+Return the summarized response as JSON to the client.

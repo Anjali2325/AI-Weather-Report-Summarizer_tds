@@ -1,0 +1,22 @@
+Create a AI-Weather-Report Summarizer?
+
+
+I am a user and I want to know the Weather of Delhi
+
+
+Free External API to get the weather data
+I want to use GEMINI
+
+
+USER -> Hosted End-point   Server -> OPEN-Meteo -> JSON Data -> GEMINI -> Summarize -> Response
+
+
+
+
+
+
+Craft a prompt to send to a coding agent given the requirements stated below.
+
+```I want to create an AI-Weather Report Summarizer.  I know Python and FastAPI.   I want the user to be able to send a POST Request with the Location Details. The Location Details once fetched onto the server will then be used to make an external API call on to OPEN-METEO withe payload of latitude and longitude sent from the user-side and I just want to know the temperature and humdidity of that particular location of that particular day, from which we recieve structure JSON Response. That Response will then be passed on to Gemini free-tier LLM to summarize the entire weather report JSOn and the summarised response will then be sent to the user. ```
+
+
