@@ -1,0 +1,1 @@
+[![Python CI](https://github.com/Anjali2325/AI-Weather-Report-Summarizer_tds/actions/workflows/main.yml/badge.svg)](https://github.com/Anjali2325/AI-Weather-Report-Summarizer_tds/actions/workflows/main.yml)
